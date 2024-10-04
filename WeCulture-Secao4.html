@@ -1,0 +1,119 @@
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>WeCulture - Estilo</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header class="titulo">WECulture - Estilo de roupas.</header>
+    <button class="voltar" onclick="window.location.href='index.html'">Voltar     
+        <span class="material-symbols-outlined"> Home </span>
+
+            <style>
+                .material-symbols-outlined {
+                  font-variation-settings:
+                  'FILL' 0,
+                  'wght' 500,
+                  'GRAD' 0,
+                  'opsz' 24
+                }
+                </style>
+    </button>
+    <section>
+        <h1>Encontre sua personalidade em estilos de roupas:</h1>
+        <header>Tipos de estilos:</header>
+        <section class="conteudo">
+        <div class="estilos">
+            <div class="oldmoney">
+                <p>OldMoney</p>
+                <img src="img/oldmoney.jpg" alt="Imagem">
+                <div class="arrow" onclick="toggleDescription(1)">&#9660; Clique para ver descrição</div>
+                <div class="description" id="desc1">
+                    <p>O estilo "old money" é caracterizado por moda clássica e sofisticada, com roupas de alta qualidade, cores neutras, e acessórios discretos. Valoriza a elegância, a tradição e um estilo de vida reservado, sem ostentação.
+                    </p>
+                </div>
+            </div>
+
+            <div class="street">
+                <p>Streetwear</p>
+                <img src="img/Stret.jpg" alt="Imagem">
+                <div class="arrow" onclick="toggleDescription(2)">&#9660; Clique para ver descrição</div>
+                <div class="description" id="desc2">    
+                <p>O estilo "streetwear" é uma moda urbana que combina elementos da cultura jovem, como skate e hip-hop. É caracterizado por roupas casuais, como camisetas oversized, tênis, moletons e acessórios como bonés e mochilas. O estilo valoriza a individualidade, muitas vezes incorporando gráficos, logotipos e designs ousados.
+                    </p>
+                </div>
+            </div>
+
+            <div class="uk">
+                <p>Uk Drip</p>
+                <img src="img/Uk drip.jpg" alt="Imagem">
+                <div class="arrow" onclick="toggleDescription(3)">&#9660; Clique para ver descrição</div>
+                <div class="description" id="desc3">    
+                <p>O "UK drip" é um estilo urbano que surgiu no Reino Unido, associado à música grime e rap. Caracteriza-se por roupas oversized, tênis chamativos, estampas ousadas e acessórios como bonés e correntes. O estilo valoriza marcas de streetwear e a autenticidade, refletindo a cultura jovem.
+                    </p>
+                </div>
+            </div>
+
+            <div class="starboy">
+                <p>Starboy</p>
+                <img src="img/starboy.jpg" alt="Imagem">
+                <div class="arrow" onclick="toggleDescription(4)">&#9660; Clique para ver descrição</div>
+                <div class="description" id="desc4">
+                    <p>O estilo "starboy" é influenciado pela estética glamourosa da cultura pop e pela música contemporânea. É caracterizado por roupas ousadas e chamativas, como camisetas oversized, jaquetas de couro, calças justas e acessórios luxuosos. O visual frequentemente inclui tênis de grife e detalhes metálicos, refletindo uma mistura de sofisticação e atitude urbana, ideal para quem busca destacar-se e exibir uma identidade marcante.
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+        <section class="outros">
+            <div class="estilos">
+                <div class="sportlife">
+                    <p>Sportlife</p>
+                    <img src="img/sportlife.jpg" alt="Imagem">
+                    <div class="arrow" onclick="toggleDescription(5)">&#9660; Clique para ver descrição</div>
+                    <div class="description" id="desc5">
+                        <p>O estilo "sportlife" combina moda esportiva e casual, priorizando conforto e funcionalidade. É marcado por roupas de times, leggings, camisetas de performance, tênis confortáveis e jaquetas leves, ideal para um visual descontraído e estiloso.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="us">
+                    <p>Us drip</p>
+                    <img src="img/Us drip.jpg" alt="Imagem">
+                    <div class="arrow" onclick="toggleDescription(6)">&#9660; Clique para ver descrição</div>
+                    <div class="description" id="desc6">
+                        <p>O "US drip" que você se refere é um estilo urbano marcado pelo uso de calças skinny, frequentemente combinadas com camisetas justas e jaquetas de couro ou oversized. Esse visual, que tem raízes na cultura hip-hop e streetwear, enfatiza uma silhueta ajustada e um toque mais sofisticado. Acessórios como bonés e correntes são comuns, acrescentando personalidade e autenticidade ao look.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="escritos">
+        <header>O que é ter estilo?</header>
+        <div>
+            <p>Ter estilo é expressar sua personalidade e individualidade por meio da forma como você se veste, se comporta e se apresenta. Não se trata apenas de seguir tendências, mas de saber combinar roupas, acessórios e atitudes que refletem quem você é. Ter estilo envolve confiança, criatividade e autenticidade, permitindo que seu visual comunique algo sobre sua identidade e gostos pessoais.
+            </p>
+        </div>
+    </section>
+
+<script>
+        function toggleDescription(index) {
+            var description = document.getElementById('desc' + index);
+            if (description.style.display === 'none' || description.style.display === '') {
+                description.style.display = 'block';
+            } else {
+                description.style.display = 'none';
+            }
+        }
+</script>
+</body>
+</html>
+
+   

@@ -1,0 +1,161 @@
+body{
+    padding: 0em 0em 80em 0em;
+    overflow: auto;
+    background-color: #77819d;
+    margin: 0px
+}
+
+.titulo{
+    background-color: #8d97b2;
+}
+
+
+header{
+    font-size: 50px;
+    color: white;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+h1{
+    font-size: 18px;
+    color: white;
+    padding: 0em 16em 0em 0em;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.voltar{
+    display: flex;
+    margin: 0em 0em 2em 0em;
+    padding: 0.2em;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: rgba(250, 250, 250, 0.822);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.curiosidade{
+    font-size: 18px;
+    color: white;
+    padding: 0em 16em 0em 0em;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    width: 800px;
+}
+
+.start header{
+    padding-top: 1em;
+}
+
+.dicas li{
+    color: white;
+    padding: 0em 16em 0em 0em;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+.dicas ul{
+    margin: 2em 0em 2em 9em;
+    padding-top: 1em;
+    height: 240px;
+    background-color: rgb(255 255 255 / 28%);
+    border-radius: 12px;
+    width: 1000px;
+}
+
+.investimento li{
+    color: white;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.investimento p{
+    color: white;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.conservador{
+    margin: 1em;
+    background-color: rgb(255 255 255 / 28%);
+    padding: 1px 8px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.investimento{
+    display: flex;
+    overflow: auto;
+}
+
+.moderado{
+    margin: 1em;
+    background-color: rgb(255 255 255 / 28%);
+    padding: 1px 8px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.arrojado{
+    margin: 1em;
+    background-color: rgb(255 255 255 / 28%);
+    padding: 1px 8px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.outros{
+    margin: 1em;
+    background-color: rgb(255 255 255 / 28%);
+    padding: 1px 8px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.dinheiro header{
+    text-align: center;
+}
+
+.dinheiro ul{
+    margin: 2em 0em 2em 9em;
+    padding-top: 1em;
+    height: 340px;
+    background-color: rgb(255 255 255 / 28%);
+    border-radius: 12px;
+    width: 1000px;
+
+    color: white;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 18px;
+}

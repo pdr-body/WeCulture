@@ -1,0 +1,156 @@
+body{
+    padding: 0em 0em 80em 0em;
+    overflow: auto;
+    background-color: #77819d;
+    margin: 0px
+}
+
+.titulo{
+    background-color: #8d97b2;
+}
+
+
+header{
+    font-size: 50px;
+    color: white;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+
+    
+}
+
+h1{
+    font-size: 18px;
+    color: white;
+    padding: 0em 16em 0em 0em;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    border-bottom: white solid 2px;
+}
+
+.voltar{
+    display: flex;
+    margin: 0em 0em 2em 0em;
+    padding: 0.2em;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: rgba(250, 250, 250, 0.822);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.texto1{
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    word-wrap: break-word; 
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    width: 400px;
+}
+
+.textos{
+    padding: 0.5em 0em;
+}
+
+.link1{ 
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+.conteudo{
+    padding: 0em 0em 8em 0em;
+}
+.Mconteudo img{
+    height: 240px;
+    border: 10px solid rgb(252, 254, 255, 0.5);
+    border-radius: 12px;
+    padding: 0em 0em;
+}
+
+.Mconteudo{
+    display: flex;
+    gap: 55px;
+}
+
+.M{
+    padding: 0em 0em 1em 0em
+}
+
+.alright{
+  
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    word-wrap: break-word; 
+    width: 330px;
+}
+
+.leall{
+  
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    word-wrap: break-word; 
+    width: 330px;
+}
+
+.Racio{
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    word-wrap: break-word; 
+    width: 330px;
+}
+
+.ye{
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    word-wrap: break-word; 
+    width: 330px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.description {
+    display: none; /* Inicialmente, a descrição está escondida */
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* Fundo branco com opacidade */
+    border-radius: 5px;
+    width: 400px;
+    text-align: left;
+}
+
+.arrow {
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.int{
+    color: white;
+    font-size: 20px;
+}
+
