@@ -147,9 +147,9 @@ footer {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    font-size: 18px;
+    font-size: 16px;
 
-    margin-top: 28em;
+    margin-top: 22em;
     background-color:#283237; /* Cor de fundo */
     color: white;           /* Cor do texto */
     text-align: center;     /* Centraliza o texto */
@@ -161,4 +161,42 @@ footer {
 
 footer a:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    header{
+        font-size: 150%;
+    }
+
+    .palavras-1{
+        font-size: 100%;
+    }
+
+    .primeiro{
+        gap: 2px;
+    }
+
+    .primeiro img{
+        height: 5em;
+    }
+
+    .logo{
+        padding: 2%;
+    }
+
+    .palavras2{
+        font-size: 1em;
+    }
+
+    .container-conteudo img{
+        height: 5em;
+        opacity: 0.5;
+        border: 4px solid rgb(252, 254, 255, 0.5);
+        border-radius: 12px;
+    }
 }
