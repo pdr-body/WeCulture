@@ -182,7 +182,7 @@ footer a:hover {
     }
 
     .primeiro img{
-        height: 5em;
+        height: 10em;
     }
 
     .logo{
@@ -194,7 +194,7 @@ footer a:hover {
     }
 
     .container-conteudo img{
-        height: 5em;
+        height: 10em;
         opacity: 0.5;
         border: 4px solid rgb(252, 254, 255, 0.5);
         border-radius: 12px;
