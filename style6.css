@@ -1,5 +1,5 @@
 body{
-    padding: 0em 0em 80em 0em;
+    padding: 0em 0em 20em 0em;
     overflow: auto;
     background-color: #77819d;
     margin: 0px
@@ -159,3 +159,89 @@ h1{
     font-style: normal;
     font-size: 18px;
 }
+
+@media only screen and (max-width: 768px){
+    header{
+        font-size: 34px;
+    }
+
+    body{
+        margin: 1em;
+    }
+
+    .titulo{
+        background-color: #77819d;
+    }
+
+    .voltar{
+        font-size: 24px
+    }
+
+    
+    h1{
+        padding: 0em 0em 0em 0em;
+    }
+
+    .dicas ul {
+        margin: 0em;
+        padding-top: 1em;
+        height: 526px;
+        background-color: rgb(255 255 255 / 28%);
+        border-radius: 12px;
+        width: 340px;
+    }
+
+
+
+    .dicas li {
+        color: white;
+        padding: 0em 4em 0em 0em;
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+
+
+    .dinheiro ul {
+        margin: auto;
+        padding-top: 1em;
+        height: 1058px;
+        background-color: #77819d;
+        border-radius: 12px;
+        width: 346px;
+        color: white;
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-size: 22px;
+    }
+
+
+    .curiosidade {
+        font-size: 18px;
+        color: white;
+        padding: 0em 0em 0em 0em;
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        width: 400px;
+    }
+
+    .dinheiro li{
+        margin: 6px;
+    }
+
+    .conservador ul{
+        width: 140px;
+    }
+
+    .moderado ul{
+        width: 140px;
+    }
+
+
+}
+
