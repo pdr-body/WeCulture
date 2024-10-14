@@ -1,5 +1,5 @@
 body{
-    padding: 0em 0em 80em 0em;
+    padding: 0em 0em 20em 0em;
     overflow: auto;
     background-color: #77819d;
     margin: 0px
@@ -178,6 +178,11 @@ h1{
     margin: 2em 0.5em;
 }
 
+    .estudo2{
+        padding: 4em 0em;
+    }
+
+
 .livro{
     display: flex;
 }
@@ -192,4 +197,94 @@ h1{
 
 a{
     text-decoration: none ;
+}
+
+@media only screen and (max-width: 768px){
+    .titulo {
+        background-color: #77819d;
+        font-style: normal;
+        font-family: "PT Serif", serif;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    h1{
+        padding: 0em 0em 0em;
+    }
+
+    body{
+        margin: 1em;
+    }
+
+    .te{
+        overflow: auto;
+    }
+
+    .tudo{
+        gap: 0px;
+        overflow: auto;
+        display: flex;
+        padding: 0em;
+    }
+
+    .resto{
+        gap: 4px;
+        overflow: auto;
+    }
+
+    .livro{
+        display: grid;
+    }
+
+    header{
+        font-size: 36px;
+    }
+
+    .depoimento p{
+        text-align: center;
+    }
+
+    .depoimento{
+        padding: 0em 0em;
+    }
+
+    .depoiment{
+        padding-top: 1em;
+    }
+
+    .textos{
+        display: flex;
+        overflow: auto;
+        width: 48em;
+        gap: 4em;
+        background-color:rgb(252, 254, 255, 0.5);
+    }
+
+    .title {
+        display: flex;
+    }
+
+    .atividedes{
+        text-align: center;
+    }
+
+    .ativ{
+        width: 350px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    .Alongamento{
+        padding: 0.5em;
+    }
+
+    .relax{
+        padding-top: 3.3em;
+    }
+
+    .livro{
+        display: flex;
+        overflow: auto;
+    }
 }
