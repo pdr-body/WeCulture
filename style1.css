@@ -1,5 +1,5 @@
 body{
-    padding: 0em 0em 80em 0em;
+    padding: 0em 0em 22em 0em;
     overflow: auto;
     background-color: #77819d;
     margin: 0px
@@ -156,7 +156,7 @@ h1{
 
 @media only screen and (max-width: 768px) {
     header{
-        font-size: 34px;
+        font-size: 30px;
     }
 
     body{
@@ -191,35 +191,36 @@ h1{
     .nudred{
         width: 80%;
         text-align: center;
+        padding: 0em 0em 0em 1.5em;
     }
 
     .locs{
         width: 80%;
         text-align: center;
-        padding: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 1.5em;
     }
 
     .trancaBox{
         width: 80%;
         text-align: center;
-        padding: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 1.5em;
     }
 
     .waves{
         width: 80%;
-        padding: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 1.5em;
         text-align: center;
     }
 
     .tranca{
-        padding: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 1.5em;
         width: 80%;
         text-align: center;
     }
 
     .twists{
         width: 80%;
-        padding: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 1.5em;
         text-align: center;
     }
     
