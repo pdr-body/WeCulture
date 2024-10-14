@@ -1,5 +1,5 @@
 body{
-    padding: 0em 0em 80em 0em;
+    padding: 0em 0em 22em 0em;
     overflow: auto;
     background-color: #77819d;
     margin: 0px
@@ -114,4 +114,39 @@ h1{
 
 .escritos header{
     border-top: solid white 2px ;
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        font-size: 34px;
+    }
+
+    body{
+        margin: 1em;
+    }
+
+   img{
+    height: 200px;
+   }
+
+   .estilos{
+    display: flex;
+    overflow: auto;
+   }
+
+   .titulo{
+    background-color: #77819d;
+   }
+
+   .escritos p{
+    width: 368px;
+   }
+
+   .voltar{
+    font-size: 24px
+    }
+
+    h1{
+        padding: 0em 0em 0em 0em;
+    }
 }
